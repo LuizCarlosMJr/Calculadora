@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.fundo {
+    height: 100vh;
+    background-image: linear-gradient(45deg, black, yellow);
+    color: bisque;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+
+h1{
+    padding: 45px;
+    font-size: 60px;
+    color:black;
+    text-decoration: underline;
+}
+
+.calculadora {
+    background-color: black;
+    opacity: 0.9;
+    position: absolute;
+    left: 50%;/*Essa propriedade alina a div no centro*/
+    top: 50%;
+    transform: translate(-50%,-50%);/*se não utilizar essa propriedade, somente o vértice superior esquerdo ficará ao centro*/
+    /*pelo fato do vértice estar no centro (eixo X e Y), teve que realinhar a div*/
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    width: 45vh;
+    height: 50vh;
+    font-size: 30px;
+
+}
+
+h2{
+    font-size: 70px;
+}
+
+.botao {
+    background-color:rgba(31, 31, 31, 0.5);
+    width: 115px;
+    height: 70px;
+    font-size: 30px;
+    cursor: pointer;
+    color: antiquewhite;
+    margin:2px;
+    border: none;
+    border-radius: 5px;
+
+
+}
+
+.botao:hover{
+    background-color: black;
+}
+
+#resultado{
+    background-color: aliceblue;
+    color: black;
+    text-align: right;
+    margin: 5px;
+    padding: 10px;
+    width: 94%;
+    height: 40px;
+    font-size: 30px;
+    border-radius: 5px;
+}
